@@ -15,6 +15,9 @@ body {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -98,6 +101,7 @@ nav>ul>li {
     /* margin-left: 100px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
+    margin-left: 40px;
 }
 
 .box>img {
